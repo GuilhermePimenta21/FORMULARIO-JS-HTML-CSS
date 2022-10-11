@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./bg-repeat.jpg);
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.ficou-com-duvida{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+   
+
+}
+.ficou-com-duvida h1{
+    
+    
+}
+
+.ficou-com-duvida p{
+    margin-top: 10px;
+    margin-right: 100px;
+    
+    
+}
+
+.container{
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.container input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left:10px ;
+
+}
+
+.container textarea{
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    resize: none;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    margin: 20px;
+    
+}
+
+button{
+width: 300px;
+height: 40px;
+border: none;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#3ccc87 ;
+margin-left: 20px;
+color: #fff;
+margin-top: 20px
+
+}
+
+.campo-obrigatorio {
+    color: #f52e2e;
+    display:none;
+    font-size: 14px;
+    margin-top: 0;
+    margin-right: 180px;
+  }
+
+  .borda-vermelha {
+    border: 1px solid #f52e2e;
+  }
+  
+  .borda-verde {
+    border: 1px solid #00c22b;
+  }

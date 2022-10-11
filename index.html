@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-JS-HTML-CSS</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,900&display=swap');
+    </style>
+</head>
+<body>
+        <div class="ficou-com-duvida ">
+            <h1>Ficou Com Duvida ? <br>
+            nos mande uma mensagem!</h1>
+            <p>Caso tenha ficado com qualquer duvida <br>  basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="container">
+            <form id="form">
+                <div class="inputs">
+                <input type="text" placeholder="nome completo" class="required">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input type="text" placeholder="email" class="required">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input type="text" placeholder="telefone" class="required">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <textarea  id=""placeholder="mensagem" class="required"></textarea>
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+
+                </div>
+
+                <span>*campos obrigatorios</span>
+
+                <button type="submit" id="btn" class="btn">Enivar</button>
+
+            </form>
+        </div>
+
+        <script src="./index.js"></script>
+</body>
+</html>
